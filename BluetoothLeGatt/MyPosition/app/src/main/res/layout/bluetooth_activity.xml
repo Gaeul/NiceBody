@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="104dp"
+    android:layout_marginLeft="54dp"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btn_leftfoot"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="0.11"
+        android:text="Left Foot" />
+
+    <TextView
+        android:id="@+id/state_leftfoot"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="60dp"
+        android:text="                                Failed" />
+
+    <Button
+        android:id="@+id/btn_rightfoot"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Right Foot"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:id="@+id/state_rightfoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="5dp"
+        android:text="                                Failed" />
+
+    <Button
+        android:id="@+id/btn_waist"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Waist"
+        android:layout_weight="0.05" />
+
+    <TextView
+        android:id="@+id/state_waist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_margin="5dp"
+        android:text="                                Failed" />
+
+</LinearLayout>
